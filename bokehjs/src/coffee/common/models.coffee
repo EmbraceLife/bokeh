@@ -82,18 +82,18 @@ module.exports = {
   LinearInterpolator:       require '../models/transforms/linear_interpolator'
   StepInterpolator:       require '../models/transforms/step_interpolator'
 
-  Asterisk:                 require '../models/markers/asterisk'
-  CircleCross:              require '../models/markers/circle_cross'
-  CircleX:                  require '../models/markers/circle_x'
-  Cross:                    require '../models/markers/cross'
-  Diamond:                  require '../models/markers/diamond'
-  DiamondCross:             require '../models/markers/diamond_cross'
-  InvertedTriangle:         require '../models/markers/inverted_triangle'
-  Square:                   require '../models/markers/square'
-  SquareCross:              require '../models/markers/square_cross'
-  SquareX:                  require '../models/markers/square_x'
-  Triangle:                 require '../models/markers/triangle'
-  X:                        require '../models/markers/x'
+  Asterisk:                 require('../models/markers/all_markers').Asterisk
+  CircleCross:              require('../models/markers/all_markers').CircleCross
+  CircleX:                  require('../models/markers/all_markers').CircleX
+  Cross:                    require('../models/markers/all_markers').Cross
+  Diamond:                  require('../models/markers/all_markers').Diamond
+  DiamondCross:             require('../models/markers/all_markers').DiamondCross
+  InvertedTriangle:         require('../models/markers/all_markers').InvertedTriangle
+  Square:                   require('../models/markers/all_markers').Square
+  SquareCross:              require('../models/markers/all_markers').SquareCross
+  SquareX:                  require('../models/markers/all_markers').SquareX
+  Triangle:                 require('../models/markers/all_markers').Triangle
+  X:                        require('../models/markers/all_markers').X
 
   Plot:                     require '../models/plots/plot'
   GMapPlot:                 require '../models/plots/gmap_plot'
